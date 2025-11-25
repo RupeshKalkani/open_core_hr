@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1070107253443",
+    "project_id": "facility-mate-saas",
+    "storage_bucket": "facility-mate-saas.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1070107253443:android:1d3d69c41625cc9637a076",
+        "android_client_info": {
+          "package_name": "com.czappstudio.open_core_hr"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJtFB1bHFNEAcaSZay1MZZLumXC8Z5_GE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1070107253443:android:5f56221131a5d00237a076",
+        "android_client_info": {
+          "package_name": "com.facilitymatesaas.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJtFB1bHFNEAcaSZay1MZZLumXC8Z5_GE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
