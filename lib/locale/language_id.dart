@@ -1980,4 +1980,7 @@ class LanguageId extends BaseLanguage {
 
   @override
   String get lblOrganization => 'Organisasi';
+
+  @override
+  String get lblConnectingFacilitiesWithServiceProviders => 'Menghubungkan fasilitas dengan penyedia layanan';
 }

@@ -1978,4 +1978,7 @@ class LanguageHi extends BaseLanguage {
 
   @override
   String get lblOrganization => 'संगठन';
+
+  @override
+  String get lblConnectingFacilitiesWithServiceProviders => 'सुविधाओं को सेवा प्रदाताओं से जोड़ना';
 }

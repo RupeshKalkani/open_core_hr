@@ -1955,4 +1955,7 @@ class LanguageEn extends BaseLanguage {
 
   @override
   String get lblOrganization => 'Organization';
+
+  @override
+  String get lblConnectingFacilitiesWithServiceProviders => 'Connecting Facilities with service providers';
 }

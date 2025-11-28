@@ -35,7 +35,8 @@ class _SplashScreenState extends State<SplashScreen> {
 
       bool isAnyConnection = connectivityResult.any((element) =>
           element == ConnectivityResult.mobile ||
-          element == ConnectivityResult.wifi);
+          element == ConnectivityResult.wifi ||
+          element == ConnectivityResult.ethernet);
 
       if (isAnyConnection) {
         if (getBoolAsync(isLoggedInPref)) {
@@ -119,7 +120,7 @@ class _SplashScreenState extends State<SplashScreen> {
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             const SizedBox(),
-            Image.asset(appLogoImg, height: 100, width: 100),
+            Image.asset(appLogoImg, height: 200, width: 200),
             FooterSignature(
               textColor: appStore.textPrimaryColor!,
             )

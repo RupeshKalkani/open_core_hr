@@ -1957,4 +1957,7 @@ class LanguageTh extends BaseLanguage {
 
   @override
   String get lblOrganization => 'องค์กร';
+
+  @override
+  String get lblConnectingFacilitiesWithServiceProviders => 'เชื่อมต่อสถานบริการกับผู้ให้บริการ';
 }

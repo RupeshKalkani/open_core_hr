@@ -1274,4 +1274,6 @@ abstract class BaseLanguage {
   String get lblApprovals;
 
   String get lblFilters;
+
+  String get lblConnectingFacilitiesWithServiceProviders;
 }

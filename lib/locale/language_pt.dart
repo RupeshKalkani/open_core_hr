@@ -1996,4 +1996,7 @@ class LanguagePt extends BaseLanguage {
 
   @override
   String get lblOrganization => 'Organização';
+
+  @override
+  String get lblConnectingFacilitiesWithServiceProviders => 'Conectando instalações aos prestadores de serviços';
 }

@@ -123,21 +123,21 @@ class _AccountScreenState extends State<AccountScreen> {
                       title: language.lblRateUs,
                       icon: Iconsax.star,
                       onTap: () async {
-                        PackageInfo.fromPlatform().then((value) async {
-                          String package = value.packageName;
-                          launchUrl(Uri.parse('$playStoreUrl$package'));
-                        });
+                        // PackageInfo.fromPlatform().then((value) async {
+                        //   String package = value.packageName;
+                        //   launchUrl(Uri.parse('$playStoreUrl$package'));
+                        // });
                       },
                     ),
                     _buildSettingsItem(
                       title: language.lblShareApp,
                       icon: Iconsax.share,
                       onTap: () async {
-                        PackageInfo.fromPlatform().then((value) async {
-                          String package = value.packageName;
-                          await Share.share(
-                              'Download $mainAppName from Play Store\n\n\n$playStoreUrl$package');
-                        });
+                        // PackageInfo.fromPlatform().then((value) async {
+                        //   String package = value.packageName;
+                        //   await Share.share(
+                        //       'Download $mainAppName from Play Store\n\n\n$playStoreUrl$package');
+                        // });
                       },
                     ),
 

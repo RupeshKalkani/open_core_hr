@@ -29,10 +29,18 @@ class _SupportComponentState extends State<SupportComponent> {
   void init() async {
     setState(() => isLoading = true);
 
-    supportEmail = getStringAsync(appSupportEmailPref);
-    supportPhone = getStringAsync(appSupportPhonePref);
-    supportWhatsApp = getStringAsync(appSupportWhatsAppPref);
-    website = getStringAsync(appWebsiteUrlPref);
+    supportEmail = getStringAsync(appSupportEmailPref).isNotEmpty
+        ? getStringAsync(appSupportEmailPref)
+        : "support@wuv.studio";
+    supportPhone = getStringAsync(appSupportPhonePref).isNotEmpty
+        ? getStringAsync(appSupportPhonePref)
+        : "+1 336-310-9644";
+    supportWhatsApp = getStringAsync(appSupportWhatsAppPref).isNotEmpty
+        ? getStringAsync(appSupportWhatsAppPref)
+        : "+1 336-310-9644";
+    website = getStringAsync(appWebsiteUrlPref).isNotEmpty
+        ? getStringAsync(appWebsiteUrlPref)
+        : "www.facilitymate.com";
 
     setState(() => isLoading = false);
   }
@@ -59,11 +67,11 @@ class _SupportComponentState extends State<SupportComponent> {
                     label: 'Mail Support',
                     onTap: () => _sendEmail(),
                   ),
-                  _buildSupportButton(
-                    icon: Icons.message,
-                    label: 'WhatsApp',
-                    onTap: () => _openWhatsApp(),
-                  ),
+                  // _buildSupportButton(
+                  //   icon: Icons.message,
+                  //   label: 'WhatsApp',
+                  //   onTap: () => _openWhatsApp(),
+                  // ),
                   _buildSupportButton(
                     icon: Icons.web,
                     label: 'Visit Website',

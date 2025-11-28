@@ -1989,4 +1989,7 @@ class LanguageTa extends BaseLanguage {
 
   @override
   String get lblOrganization => 'நிறுவனம்';
+
+  @override
+  String get lblConnectingFacilitiesWithServiceProviders => 'வசதிகளை சேவை வழங்குபவர்களுடன் இணைப்பது';
 }

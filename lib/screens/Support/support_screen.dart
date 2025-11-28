@@ -22,25 +22,20 @@ class _SupportScreenState extends State<SupportScreen> {
         children: [
           Column(
             children: [
-              SizedBox(
-                width: 150,
-                child: Image.asset(
-                  'images/app_logo.png',
-                ),
-              ),
+              SizedBox(width: 150, child: Image.asset('images/app_logo.png')),
               Text(
                 mainAppName,
                 style: boldTextStyle(size: 32, fontFamily: 'Lufga'),
               ),
               5.height,
               Text(
-                appDescription,
+                language.lblConnectingFacilitiesWithServiceProviders,
                 textAlign: TextAlign.center,
                 style: secondaryTextStyle(),
               ),
-              Image.asset(
-                'images/czappstudio_logo.png',
-              ),
+              // Image.asset(
+              //   'images/czappstudio_logo.png',
+              // ),
               10.height,
               Text(
                 language
@@ -49,7 +44,7 @@ class _SupportScreenState extends State<SupportScreen> {
                 textAlign: TextAlign.center,
               ),
               20.height,
-              const SupportComponent()
+              const SupportComponent(),
             ],
           ).paddingOnly(left: 16, right: 16),
         ],

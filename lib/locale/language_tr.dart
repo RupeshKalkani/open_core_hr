@@ -1976,4 +1976,7 @@ class LanguageTr extends BaseLanguage {
 
   @override
   String get lblOrganization => 'Organizasyon';
+
+  @override
+  String get lblConnectingFacilitiesWithServiceProviders => 'Tesisleri hizmet sağlayıcılarla bağlama';
 }

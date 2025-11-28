@@ -1967,4 +1967,7 @@ class LanguageTe extends BaseLanguage {
 
   @override
   String get lblOrganization => 'సంస్థ';
+
+  @override
+  String get lblConnectingFacilitiesWithServiceProviders => 'సౌకర్యాలను సేవా ప్రదాతలతో అనుసంధానం చేయడం';
 }

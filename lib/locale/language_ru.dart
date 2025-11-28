@@ -1983,4 +1983,7 @@ class LanguageRu extends BaseLanguage {
 
   @override
   String get lblOrganization => 'Организация';
+
+  @override
+  String get lblConnectingFacilitiesWithServiceProviders => 'Соединение объектов с поставщиками услуг';
 }

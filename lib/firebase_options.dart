@@ -51,7 +51,7 @@ class DefaultFirebaseOptions {
 
   static const FirebaseOptions android = FirebaseOptions(
     apiKey: 'AIzaSyBJtFB1bHFNEAcaSZay1MZZLumXC8Z5_GE',
-    appId: '1:1070107253443:android:1d3d69c41625cc9637a076',
+    appId: '1:1070107253443:android:5f56221131a5d00237a076',
     messagingSenderId: '1070107253443',
     projectId: 'facility-mate-saas',
     storageBucket: 'facility-mate-saas.firebasestorage.app',
@@ -59,10 +59,11 @@ class DefaultFirebaseOptions {
 
   static const FirebaseOptions ios = FirebaseOptions(
     apiKey: 'AIzaSyA9ksr36N4AqEcGWTJZB71nThIMaqgI6JY',
-    appId: '1:1070107253443:ios:20f6bc3ea85127da37a076',
+    appId: '1:1070107253443:ios:7c27bf936b3af62737a076',
     messagingSenderId: '1070107253443',
     projectId: 'facility-mate-saas',
     storageBucket: 'facility-mate-saas.firebasestorage.app',
-    iosBundleId: 'com.czappstudio.openCoreHr',
+    iosBundleId: 'com.facilitymatesaas.app',
   );
+
 }

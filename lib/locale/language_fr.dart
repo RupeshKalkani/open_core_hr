@@ -1995,4 +1995,7 @@ class LanguageFr extends BaseLanguage {
 
   @override
   String get lblOrganization => 'Organisation';
+
+  @override
+  String get lblConnectingFacilitiesWithServiceProviders => 'Connecter les installations avec les prestataires de services';
 }

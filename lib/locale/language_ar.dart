@@ -1957,4 +1957,7 @@ class LanguageAr extends BaseLanguage {
 
   @override
   String get lblOrganization => 'المؤسسة';
+
+  @override
+  String get lblConnectingFacilitiesWithServiceProviders => 'ربط المرافق بمقدمي الخدمات';
 }

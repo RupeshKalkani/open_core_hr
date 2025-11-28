@@ -1,6 +1,6 @@
 // Shared Pref
 const isSaaSMode = false;
-const isDemoMode = true;
+const isDemoMode = false;
 const sosTimer = 5;
 const mapsKey = '';
 const agoraAppId = '';
@@ -78,7 +78,7 @@ const activityCountPref = 'activityCount';
 
 const playStoreUrl = 'https://play.google.com/store/apps/details?id=';
 const privacyPolicyUrl = 'privacy-policy.html';
-const mainAppName = 'Open Core HR';
+const mainAppName = 'FacilityMate-SaaS';
 const appDescription = "$mainAppName is a open source AI Powered HRMS.";
 
 /* font sizes*/

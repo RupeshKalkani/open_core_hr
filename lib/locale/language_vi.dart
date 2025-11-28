@@ -1986,4 +1986,7 @@ class LanguageVi extends BaseLanguage {
 
   @override
   String get lblOrganization => 'Tổ chức';
+
+  @override
+  String get lblConnectingFacilitiesWithServiceProviders => 'Kết nối các cơ sở với nhà cung cấp dịch vụ';
 }

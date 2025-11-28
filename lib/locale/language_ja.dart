@@ -1930,4 +1930,7 @@ class LanguageJa extends BaseLanguage {
 
   @override
   String get lblOrganization => '組織';
+
+  @override
+  String get lblConnectingFacilitiesWithServiceProviders => '施設とサービス提供者をつなぐ';
 }

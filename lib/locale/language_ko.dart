@@ -30,8 +30,8 @@ class LanguageKo extends BaseLanguage {
 
   @override
   String
-      get lblActivityPermissionIsUsedToDetectYourPhysicalMovementsAndTravelEnablingTheAppToTrackAttendanceVisitsAndActivityStates =>
-          '이 권한은 사용자의 신체 이동 및 여행을 감지하여 출석, 방문 및 활동 상태를 추적하는 데 사용됩니다.';
+  get lblActivityPermissionIsUsedToDetectYourPhysicalMovementsAndTravelEnablingTheAppToTrackAttendanceVisitsAndActivityStates =>
+      '이 권한은 사용자의 신체 이동 및 여행을 감지하여 출석, 방문 및 활동 상태를 추적하는 데 사용됩니다.';
 
   @override
   String get lblAddClient => '고객 추가';
@@ -72,8 +72,8 @@ class LanguageKo extends BaseLanguage {
 
   @override
   String
-      get lblAllowAccessToYourLocationForAttendanceAndTravelTrackingEvenWhenTheAppIsClosed =>
-          '앱이 닫혀 있을 때도 출석 및 여행 추적을 위해 위치 액세스를 허용하십시오.';
+  get lblAllowAccessToYourLocationForAttendanceAndTravelTrackingEvenWhenTheAppIsClosed =>
+      '앱이 닫혀 있을 때도 출석 및 여행 추적을 위해 위치 액세스를 허용하십시오.';
 
   @override
   String get lblAmount => '금액';
@@ -205,6 +205,7 @@ class LanguageKo extends BaseLanguage {
 
   @override
   String get lblCallNow => '지금 전화하기';
+
   @override
   String get lblCamera => '카메라';
 
@@ -596,8 +597,8 @@ class LanguageKo extends BaseLanguage {
 
   @override
   String
-      get lblFollowTheStepsAndDisableTheOptimizationsToAllowSmoothFunctioningOfThisApp =>
-          '이 앱이 원활하게 작동하도록 최적화를 비활성화하세요.';
+  get lblFollowTheStepsAndDisableTheOptimizationsToAllowSmoothFunctioningOfThisApp =>
+      '이 앱이 원활하게 작동하도록 최적화를 비활성화하세요.';
 
   @override
   String get lblFollowTheStepsAndEnableTheAutoStartOfThisApp =>
@@ -605,8 +606,8 @@ class LanguageKo extends BaseLanguage {
 
   @override
   String
-      get lblForAnyQueriesCustomizationsInstallationOrFeedbackPleaseContactUsAt =>
-          '문의 사항, 사용자 정의, 설치 또는 피드백이 필요하면 연락 주세요.';
+  get lblForAnyQueriesCustomizationsInstallationOrFeedbackPleaseContactUsAt =>
+      '문의 사항, 사용자 정의, 설치 또는 피드백이 필요하면 연락 주세요.';
 
   @override
   String get lblForDate => '날짜 기준';
@@ -688,8 +689,9 @@ class LanguageKo extends BaseLanguage {
 
   @override
   String
-      get lblIfYouWantToLoginWithDifferentAccountPleaseContactAdministrator =>
-          '다른 계정으로 로그인하려면 관리자에게 문의하세요.';
+  get lblIfYouWantToLoginWithDifferentAccountPleaseContactAdministrator =>
+      '다른 계정으로 로그인하려면 관리자에게 문의하세요.';
+
   @override
   String get lblImage => '이미지';
 
@@ -701,8 +703,8 @@ class LanguageKo extends BaseLanguage {
 
   @override
   String
-      get lblImportantGiveLocationAccuracyToPreciseAndAllowAllTheTimeSoThatTheAppCanFunctionProperly =>
-          '앱이 올바르게 작동하려면 위치 정확도를 "정확"으로 설정하고 항상 허용하세요.';
+  get lblImportantGiveLocationAccuracyToPreciseAndAllowAllTheTimeSoThatTheAppCanFunctionProperly =>
+      '앱이 올바르게 작동하려면 위치 정확도를 "정확"으로 설정하고 항상 허용하세요.';
 
   @override
   String get lblInTime => '출근 시간';
@@ -818,13 +820,13 @@ class LanguageKo extends BaseLanguage {
 
   @override
   String
-      get lblLocationPermissionIsRequiredForTrackingAttendanceRecordingClientVisitsAndCalculatingDistancesTraveledEvenWhenTheAppIsNotInUse =>
-          '근태 추적, 고객 방문 기록, 이동 거리 계산을 위해 앱이 사용되지 않을 때도 위치 권한이 필요합니다.';
+  get lblLocationPermissionIsRequiredForTrackingAttendanceRecordingClientVisitsAndCalculatingDistancesTraveledEvenWhenTheAppIsNotInUse =>
+      '근태 추적, 고객 방문 기록, 이동 거리 계산을 위해 앱이 사용되지 않을 때도 위치 권한이 필요합니다.';
 
   @override
   String
-      get lblLocationWillBeTrackedTnTheBackgroundAndAlsoEvenWhenTheAppIsClosedOrNotInUse =>
-          '위치는 백그라운드에서 추적되며, 앱이 닫히거나 사용되지 않을 때도 추적됩니다.';
+  get lblLocationWillBeTrackedTnTheBackgroundAndAlsoEvenWhenTheAppIsClosedOrNotInUse =>
+      '위치는 백그라운드에서 추적되며, 앱이 닫히거나 사용되지 않을 때도 추적됩니다.';
 
   @override
   String get lblLogOut => '로그아웃';
@@ -991,6 +993,7 @@ class LanguageKo extends BaseLanguage {
 
   @override
   String get lblPhoneNumberDoesNotExists => '전화번호가 존재하지 않습니다.';
+
   @override
   String get lblPhoneNumberIsRequired => '전화번호가 필요합니다.';
 
@@ -1450,8 +1453,8 @@ class LanguageKo extends BaseLanguage {
 
   @override
   String
-      get lblThisDeviceIsAlreadyRegisteredWithOtherAccountPleaseContactAdministrator =>
-          '이 장치는 이미 다른 계정에 등록되어 있습니다. 관리자에게 문의하세요.';
+  get lblThisDeviceIsAlreadyRegisteredWithOtherAccountPleaseContactAdministrator =>
+      '이 장치는 이미 다른 계정에 등록되어 있습니다. 관리자에게 문의하세요.';
 
   @override
   String get lblThisDeviceIsNotRegisteredClickOnRegisterToAddItToYourAccount =>
@@ -1468,6 +1471,7 @@ class LanguageKo extends BaseLanguage {
 
   @override
   String get lblTitle => '제목';
+
   @override
   String get lblTo => '까지';
 
@@ -1667,8 +1671,8 @@ class LanguageKo extends BaseLanguage {
 
   @override
   String
-      get lblWeHaveSendA4DigitVerificationCodeToYourPhonePleaseEnterTheCodeBelowTtoVerifyItsYou =>
-          '4자리 인증 코드를 귀하의 휴대전화로 보냈습니다. 본인 확인을 위해 아래에 코드를 입력하세요.';
+  get lblWeHaveSendA4DigitVerificationCodeToYourPhonePleaseEnterTheCodeBelowTtoVerifyItsYou =>
+      '4자리 인증 코드를 귀하의 휴대전화로 보냈습니다. 본인 확인을 위해 아래에 코드를 입력하세요.';
 
   @override
   String get lblWed => '수요일';
@@ -1787,8 +1791,8 @@ class LanguageKo extends BaseLanguage {
 
   @override
   String
-      get lblNotificationPermissionEnsuresYouReceiveUpdatesOnAttendanceTasksAndOtherImportantEventsInRealTime =>
-          '알림 권한을 허용하면 출석, 작업 및 기타 중요한 이벤트에 대한 실시간 업데이트를 받을 수 있습니다.';
+  get lblNotificationPermissionEnsuresYouReceiveUpdatesOnAttendanceTasksAndOtherImportantEventsInRealTime =>
+      '알림 권한을 허용하면 출석, 작업 및 기타 중요한 이벤트에 대한 실시간 업데이트를 받을 수 있습니다.';
 
   @override
   String get lblNotifications => '알림들';
@@ -1825,8 +1829,8 @@ class LanguageKo extends BaseLanguage {
 
   @override
   String
-      get lblOptionsWillBeLimitedUntilYouAreBackOnlinePleaseCheckYourInternetConnection =>
-          '인터넷에 연결될 때까지 옵션이 제한됩니다. 인터넷 연결을 확인하세요.';
+  get lblOptionsWillBeLimitedUntilYouAreBackOnlinePleaseCheckYourInternetConnection =>
+      '인터넷에 연결될 때까지 옵션이 제한됩니다. 인터넷 연결을 확인하세요.';
 
   @override
   String get lblOrder => '주문';
@@ -1920,4 +1924,7 @@ class LanguageKo extends BaseLanguage {
 
   @override
   String get lblOrganization => '조직';
+
+  @override
+  String get lblConnectingFacilitiesWithServiceProviders => '시설을 서비스 제공자와 연결하기';
 }

@@ -1998,4 +1998,7 @@ class LanguageEs extends BaseLanguage {
 
   @override
   String get lblOrganization => 'Organización';
+
+  @override
+  String get lblConnectingFacilitiesWithServiceProviders => 'Conectando instalaciones con proveedores de servicios';
 }

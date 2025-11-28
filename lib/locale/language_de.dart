@@ -2013,4 +2013,7 @@ class LanguageDe extends BaseLanguage {
 
   @override
   String get lblOrganization => 'Organisation';
+
+  @override
+  String get lblConnectingFacilitiesWithServiceProviders => 'Verbindung von Einrichtungen mit Dienstleistern';
 }

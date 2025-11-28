@@ -476,7 +476,7 @@ class FooterSignature extends StatelessWidget {
 
   const FooterSignature({
     super.key,
-    this.companyName = "CZ App Studio",
+    this.companyName = "WUV.inc",
     this.textColor = Colors.black87,
     this.iconColor = Colors.redAccent,
   });

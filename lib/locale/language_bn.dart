@@ -1979,4 +1979,7 @@ class LanguageBn extends BaseLanguage {
 
   @override
   String get lblOrganization => 'প্রতিষ্ঠান';
+
+  @override
+  String get lblConnectingFacilitiesWithServiceProviders => 'সুবিধাগুলিকে পরিষেবা প্রদানকারীদের সাথে সংযুক্ত করা';
 }

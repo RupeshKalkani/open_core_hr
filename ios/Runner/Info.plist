@@ -11,7 +11,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
-	<string>Open Core Hr</string>
+	<string>FacilityMate-SaaS</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -44,6 +44,12 @@
 	<string>We need your motion sensor permission to know whether your walking or in transport, this information is only disclosed to admin and hr.</string>
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string>We need gallery permission to pick images as proof of expense request to verify by your hr or admin.</string>
+	<key>NSMicrophoneUsageDescription</key>
+    <string>We need access to the microphone to record audio during livestream and calls.</string>
+    <key>NSAppleMusicUsageDescription</key>
+    <string>We need access to your media library to play audio content.</string>
+    <key>NSSpeechRecognitionUsageDescription</key>
+    <string>We uses speech recognition to convert your voice into text for better user experience.</string>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
 	<key>UIBackgroundModes</key>
@@ -73,5 +79,7 @@
 	<string>development</string>
 	<key>FirebaseAppDelegateProxyEnabled</key>
 	<false/>
+	<key>ITSAppUsesNonExemptEncryption</key>
+    <false/>
 </dict>
 </plist>
